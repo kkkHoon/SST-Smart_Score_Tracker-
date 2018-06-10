@@ -13,8 +13,8 @@ __Solution__ :
 -  Activate the Billiard market from the younger generation
 
 __System overview__:
-(Insert picture here)  
-(Insert picture here)
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png)  
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview2.png)  
 
 ### **2. Installation environments**
 __OS__ : Linux(server), Android(client)  
@@ -99,9 +99,9 @@ __If you want to test first, use simulator program.__
 4. push buttons on GUI
 
 __server.py structure__
-(insert picture here)
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/simulator_structure.png)  
 
 - producer thread diagram activity
-(insert picture here)  
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/producer_diagram.png)  
 - consumer thread diagram activity
-(insert picture here)  
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/consumer_diagram.png)   
