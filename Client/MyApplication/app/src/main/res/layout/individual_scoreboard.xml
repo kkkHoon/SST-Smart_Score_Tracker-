@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.hoon.myapplication.default_logo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoon.myapplication.individual_scoreboard">
+
+    <LinearLayout
+        android:id="@+id/scoreboard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dip">
+
+            <ImageButton
+                android:layout_width="50dip"
+                android:layout_height="50dip"
+                android:scaleType="centerCrop"
+                android:background = "@drawable/timer"
+                android:id="@+id/timer_btn"
+                android:layout_marginLeft="150dip"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="00 : 00"
+                android:textSize = "35dip"
+                android:id="@+id/timer_text"
+                android:layout_marginLeft="15dip"/>
+
+            <ImageButton
+                android:layout_width="80dip"
+                android:layout_height="55dip"
+                android:scaleType="centerCrop"
+                android:background = "@drawable/money"
+                android:id="@+id/money_btn"
+                android:layout_marginLeft="30dip"/>
+
+            <TextView
+                android:id="@+id/money_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="0 원"
+                android:textSize="35dip"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop = "10dip">
+
+            <ImageButton
+                android:id="@+id/streaming_btn"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:scaleType="centerCrop"
+                android:background = "@drawable/preview"
+                android:layout_marginLeft="350dip"
+                android:onClick="streaming_start"
+                />
+
+            <ImageButton
+                android:id="@+id/prev_btn"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:scaleType="centerCrop"
+                android:background="@drawable/order_up"
+                />
+
+            <ImageButton
+                android:id="@+id/next_btn"
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:scaleType="centerCrop"
+                android:background="@drawable/order_down"
+                />
+
+            <ImageButton
+                android:layout_width="60dip"
+                android:layout_height="60dip"
+                android:scaleType="centerCrop"
+                android:background="@drawable/option"/>
+
+        </LinearLayout>
+
+        <fragment
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.example.hoon.myapplication.fragment_scoreboard">
+        </fragment>
+
+    </LinearLayout>
+</com.example.hoon.myapplication.default_logo>

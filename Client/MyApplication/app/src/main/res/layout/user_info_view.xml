@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.hoon.myapplication.default_logo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoon.myapplication.user_info_view">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/user_face"
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="44dp"
+            android:background="@drawable/man" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below = "@+id/user_face"
+            android:layout_centerHorizontal="true"
+            android:text="noname"
+            android:textSize="40sp"
+            android:id="@+id/user_name" />
+
+        <ImageButton
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_below="@+id/user_name"
+            android:layout_toLeftOf="@+id/user_face"
+            android:background="@drawable/history"
+            android:id="@+id/history_btn"/>
+
+        <ImageButton
+            android:layout_width="120dip"
+            android:layout_height="120dip"
+            android:layout_below="@+id/user_name"
+            android:layout_toRightOf="@+id/user_face"
+            android:background="@drawable/play"
+            android:id="@+id/play_btn"/>
+
+    </RelativeLayout>
+
+</com.example.hoon.myapplication.default_logo>

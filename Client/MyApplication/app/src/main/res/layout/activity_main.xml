@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.hoon.myapplication.default_logo xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hoon.myapplication.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_container">
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/question"
+            android:layout_margin="10dip"
+            android:id="@+id/imageButton"
+            android:onClick="ShowHelper"/>
+
+        <TextView
+            android:id="@+id/game_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageButton"
+            android:layout_marginTop="47dp"
+            android:gravity="center_horizontal"
+            android:text="게임 모드"
+            android:textSize="30dip" />
+
+        <Button
+            android:id="@+id/individual_btn"
+            android:layout_width="185dp"
+            android:layout_height="85dp"
+
+            android:layout_below="@+id/game_mode"
+            android:layout_marginLeft="68dp"
+            android:layout_marginTop="34dp"
+            android:background="@drawable/mode_btn_design"
+
+            android:onClick="GoSingleMode"
+            android:text="개인전"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/team_btn"
+            android:layout_width="185dp"
+            android:layout_height="85dp"
+
+            android:layout_alignBottom="@+id/individual_btn"
+            android:layout_toRightOf="@+id/individual_btn"
+            android:layout_marginLeft="100dip"
+            android:background="@drawable/mode_btn_design"
+
+            android:onClick="GoSingleMode"
+            android:text="팀전"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+    </RelativeLayout>
+</com.example.hoon.myapplication.default_logo>
