@@ -13,7 +13,7 @@ __Solution__ :
 -  Activate the Billiard market from the younger generation
 
 __System overview__:
-![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png)
+<img src="https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png" width="200" height="200>
 
   
  __System structure__:  
