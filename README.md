@@ -16,15 +16,16 @@ __System overview__:
 (Insert picture here)
 (Insert picture here)
 
-###**2. Installation environments**
+### **2. Installation environments**
 __OS__ : Linux(server), Android(client)
 __Language__: Python, JAVA
 __required program__: python 3, Android Studio, VLC
 __hardware__: Raspberry pi 3, Raspberry pi camera module V2, Tablet or smart phone on Android
-###**3. API**
+
+### **3. API**
 
 ###  **users** :
-__Each user's information__
+__Each user's information__  
 |      Field     | Type    |                                 Description                                |
 |:--------------:|---------|:--------------------------------------------------------------------------:|
 |    user_name   |  String |                                 user's name                                |
@@ -46,11 +47,12 @@ __Each user's information__
 |   adpater_percentage   |     extends BaseAdapter    |         Store user's information and view list. Adjust base time of Timer class to maintain each player's play time.         |
 |          Timer         |     extends Chronometer    |              Each player's personal timer The timer only works when player plays the game (each player's timer can has a different time)             |
 
-###**4. Sample code** 
-```private void update_view(View view, int position) throws Exception{
+### **4. Sample code** 
+```
+private void update_view(View view, int position) throws Exception{
         user_info user_data = (user_info) getItem(position);
         if (user_data == null)
-            throw new Exception();```
+            throw new Exception();
 
         ProgressBar progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
         TextView textView = (TextView) view.findViewById(R.id.score_info);
@@ -81,11 +83,13 @@ __Each user's information__
                 personal_timer.start();
                 personal_timer.stop();
             }
-        }```
+        }
+```
 Chronometer class is in ListView. So, whenever listview is refreshed(even scrolled), Chronometer base became current time(__initialized to 00:00__)
 so, I should have to adjust each chronometer's base value using __base_value and stop_time field__
-###**5. Test**
-__If you want to test first, use simulator program.__
+
+### **5. Test**
+__If you want to test first, use simulator program.__  
 
 1. run server.py on raspberry pi
 ``` python3 server.py ```
