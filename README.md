@@ -12,11 +12,11 @@ __Solution__ :
 - Provide convenience and new service to users by using image processing technology
 -  Activate the Billiard market from the younger generation
 
-__System overview__:
+__System overview__:  
 ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png)
 
   
- __System structure__:  
+ __System structure__:   
 ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview2.png) 
   
   
