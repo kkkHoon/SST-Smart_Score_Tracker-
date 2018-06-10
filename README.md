@@ -13,19 +13,19 @@ __Solution__ :
 -  Activate the Billiard market from the younger generation
 
 __System overview__:
-(Insert picture here)
+(Insert picture here)  
 (Insert picture here)
 
 ### **2. Installation environments**
-__OS__ : Linux(server), Android(client)
-__Language__: Python, JAVA
-__required program__: python 3, Android Studio, VLC
-__hardware__: Raspberry pi 3, Raspberry pi camera module V2, Tablet or smart phone on Android
+__OS__ : Linux(server), Android(client)  
+__Language__: Python, JAVA  
+__required program__: python 3, Android Studio, VLC  
+__hardware__: Raspberry pi 3, Raspberry pi camera module V2, Tablet or smart phone on Android  
 
 ### **3. API**
 
 ###  **users** :
-__Each user's information__  
+__Each user's information__:  
 |      Field     | Type    |                                 Description                                |
 |:--------------:|---------|:--------------------------------------------------------------------------:|
 |    user_name   |  String |                                 user's name                                |
@@ -102,6 +102,6 @@ __server.py structure__
 (insert picture here)
 
 - producer thread diagram activity
-(insert picture here)
+(insert picture here)  
 - consumer thread diagram activity
-(insert picture here)
+(insert picture here)  
