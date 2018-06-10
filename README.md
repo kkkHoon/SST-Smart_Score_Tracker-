@@ -24,8 +24,7 @@ __hardware__: Raspberry pi 3, Raspberry pi camera module V2, Tablet or smart pho
 
 ### **3. API**
 
-###  **users** :
-__Each user's information__:  
+###  **users**
 |      Field     | Type    |                                 Description                                |
 |:--------------:|---------|:--------------------------------------------------------------------------:|
 |    user_name   |  String |                                 user's name                                |
@@ -85,8 +84,9 @@ private void update_view(View view, int position) throws Exception{
             }
         }
 ```
-Chronometer class is in ListView. So, whenever listview is refreshed(even scrolled), Chronometer base became current time(__initialized to 00:00__)
-so, I should have to adjust each chronometer's base value using __base_value and stop_time field__
+Chronometer class is in ListView. So, whenever listview is refreshed(even scrolled),  
+Chronometer base became current time(__initialized to 00:00__)  
+so, I should have to adjust each chronometer's base value using __base_value and stop_time field__  
 
 ### **5. Test**
 __If you want to test first, use simulator program.__  
