@@ -107,8 +107,7 @@ __If you want to test first, use simulator program.__
 1. run server.py on raspberry pi
 ``` python3 server.py ```
 2. run Client program(android) on tablet or smart phone
-3. If you connected with server successfully, then you can see server GUI
-(Insert picture here)
+3. If you connected with server successfully, then you can see server GUI  
 4. push buttons on GUI
 
 __server.py structure__
