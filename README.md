@@ -13,7 +13,7 @@ __Solution__ :
 -  Activate the Billiard market from the younger generation
 
 __System overview__:
-<img src="https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png" width="200" height="200>
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/system_overview.png)
 
   
  __System structure__:  
@@ -102,9 +102,9 @@ __If you want to test first, use simulator program.__
 4. push buttons on GUI
 
 __server.py structure__
-![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/simulator_structure.png){: width="70%" height="70%"}  
+![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/simulator_structure.png)
 
-- producer thread diagram activity
--- ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/producer_diagram.png){: width="70%" height="70%"}  
-- consumer thread diagram activity
--- ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/consumer_diagram.png){: width="70%" height="70%"}  
+- producer thread diagram activity  
+-- ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/producer_diagram.png)  
+- consumer thread diagram activity  
+-- ![텍스트](https://github.com/kkkHoon/SST-Smart_Score_Tracker-/blob/master/Img/consumer_diagram.png)  
